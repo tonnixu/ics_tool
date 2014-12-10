@@ -1,0 +1,1 @@
+java -jar lib/Excel2Sql.jar %1 %2

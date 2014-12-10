@@ -1,0 +1,1 @@
+java -jar lib/Table2Excel.jar %1
