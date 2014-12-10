@@ -36,7 +36,7 @@ public class DBProviderDB2 extends DBProvider {
 	public void processSequences(PrintWriter fw, ConfigInfo configInfo) {
 		ArrayList<SequenceEntity> sequences = configInfo.getSequences();
 		for (SequenceEntity sequence : sequences) {
-			
+			// ≤‚ ‘
 			fw.println("-- –Ú¡–√Ë ˆ£∫" + sequence.getDesc());
 			fw.println("drop sequence " + sequence.getName() + ";");
 			StringBuffer buf = new StringBuffer();
